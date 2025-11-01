@@ -1,6 +1,6 @@
 {
   "files.associations": {
     "*.service": "shellscript",
-    "stdio.h": "c"
+    "stdio.h": "c",
   }
 }
