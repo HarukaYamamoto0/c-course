@@ -1,0 +1,4 @@
+# Ignores all executable files without an extension (Unix/Linux)
+*
+!/**/
+!*.*
