@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -11,8 +10,6 @@ int main() {
   srand(time(NULL));
   int randomNumber = (rand() % 100 - 0) - 0;
   int attemp = newAttempt();
-  
-  printf("%d\n", randomNumber);
 
   while (attemp != randomNumber)
   {
